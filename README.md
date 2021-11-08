@@ -107,13 +107,21 @@ An APP that can "anticipate" users' future in different aspects based on their p
    * Setting
 
 ## Wireframes
-![](https://i.imgur.com/8gAicjd.jpg)
-
-
+![](https://i.imgur.com/waLyJjs.jpg)
 
 ### [BONUS] Digital Wireframes & Mockups
+![](https://i.imgur.com/9fCrrWL.png)
+
+
 
 ### [BONUS] Interactive Prototype
+
+![](https://i.imgur.com/ZAbLIhR.gif)
+![](https://i.imgur.com/UXn84ZC.gif)
+![](https://i.imgur.com/o5jdku8.gif)
+![](https://i.imgur.com/PheFPpP.gif)
+
+
 
 ## Schema 
 [This section will be completed in Unit 9]
