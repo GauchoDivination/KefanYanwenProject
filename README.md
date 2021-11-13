@@ -126,8 +126,84 @@ An APP that can "anticipate" users' future in different aspects based on their p
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+**Perm Number Input**
+
+| Property| Type | Description |
+| -------- | -------- | -------- |
+| objectId     | String     | unique id for the user post(default field)|
+| PermNo     | Number    | input of users' perm Nos    |
+|  OtherPerm    | Number     | input of another's perm Nos    |
+| countPerm     | Number     | count the frequency of particular number in perm     |
+| PermArray    | Array     | Make user's perm number an array     |
+| otherPermArray    | Array     | Make another's perm number an array     |
+
+
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+**Login Screen / Register Screen**
+
+| Request Type | HTTP verb | Description |
+| -------- | -------- | -------- |
+| Create    | user obj    | creating a new user profile     |
+
+
+**Divination Menu (For User Only)**
+
+| Request Type| HTTP verb | Descriptio|
+| -------- | -------- | -------- |
+| Navigate |   | Navigate to different screens   |
+
+
+**Divination Menu (For Multiple)**
+
+| Request Type| HTTP verb | Descriptio|
+| -------- | -------- | -------- |
+| Navigate  |    | Navigate to different screens   |
+
+
+**Details (For User Only)**
+
+| Request Type| HTTP verb | Descriptio|
+| -------- | -------- | -------- |
+| Read  |    | Read the result of divination  |
+
+**Details (For Multiple)**
+
+| Request Type| HTTP verb | Descriptio|
+| -------- | -------- | -------- |
+| Read  |    | Read the results of divination  |
+
+**Perm Page**
+
+| Request Type| HTTP verb | Descriptio|
+| -------- | -------- | -------- |
+| Input  |    | Input others perm numbers  |
+
+**User Profile Page**
+
+| Request Type| HTTP verb | Descriptio|
+| -------- | -------- | -------- |
+| Update  |    | Update user information  |
+
+**Sharing Page**
+
+| Request Type| HTTP verb | Descriptio|
+| -------- | -------- | -------- |
+| Post  |    | Post users' divination results  |
+
+**Setting**
+
+| Request Type| HTTP verb | Descriptio|
+| -------- | -------- | -------- |
+| Update  |    | updating the setting  |
+
+
+
+
+
+
