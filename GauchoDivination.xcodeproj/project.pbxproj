@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		1A4C3CDE27482D1500F6D974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C3CDD27482D1500F6D974 /* AppDelegate.swift */; };
 		1A4C3CE027482D1500F6D974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C3CDF27482D1500F6D974 /* SceneDelegate.swift */; };
-		1A4C3CE227482D1500F6D974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C3CE127482D1500F6D974 /* ViewController.swift */; };
 		1A4C3CE527482D1500F6D974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C3CE327482D1500F6D974 /* Main.storyboard */; };
 		1A4C3CE727482D1600F6D974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C3CE627482D1600F6D974 /* Assets.xcassets */; };
 		1A4C3CEA27482D1600F6D974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C3CE827482D1600F6D974 /* LaunchScreen.storyboard */; };
 		1A4C3CF527482D1600F6D974 /* GauchoDivinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C3CF427482D1600F6D974 /* GauchoDivinationTests.swift */; };
 		1A4C3CFF27482D1600F6D974 /* GauchoDivinationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C3CFE27482D1600F6D974 /* GauchoDivinationUITests.swift */; };
 		1A4C3D0127482D1600F6D974 /* GauchoDivinationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C3D0027482D1600F6D974 /* GauchoDivinationUITestsLaunchTests.swift */; };
+		1A7BF5E0274884F5003322E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BF5DF274884F5003322E0 /* LoginViewController.swift */; };
+		1A7BF5E227488509003322E0 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BF5E127488509003322E0 /* RegViewController.swift */; };
+		1A7BF5E427488B56003322E0 /* SMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BF5E327488B56003322E0 /* SMenuViewController.swift */; };
 		7DAC7FD965EE4DB88205561B /* Pods_GauchoDivinationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2183F5EEA0F0D53415C19391 /* Pods_GauchoDivinationTests.framework */; };
 		D772B99524DE70ECCC6D4490 /* Pods_GauchoDivination_GauchoDivinationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE2C200271E1496AF09996D /* Pods_GauchoDivination_GauchoDivinationUITests.framework */; };
 		FD8D115A5DD20A52287ADE35 /* Pods_GauchoDivination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE82474552F08F23CDA6430 /* Pods_GauchoDivination.framework */; };
@@ -42,7 +44,6 @@
 		1A4C3CDA27482D1500F6D974 /* GauchoDivination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GauchoDivination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4C3CDD27482D1500F6D974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A4C3CDF27482D1500F6D974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A4C3CE127482D1500F6D974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A4C3CE427482D1500F6D974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A4C3CE627482D1600F6D974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A4C3CE927482D1600F6D974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +53,9 @@
 		1A4C3CFA27482D1600F6D974 /* GauchoDivinationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GauchoDivinationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4C3CFE27482D1600F6D974 /* GauchoDivinationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauchoDivinationUITests.swift; sourceTree = "<group>"; };
 		1A4C3D0027482D1600F6D974 /* GauchoDivinationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauchoDivinationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A7BF5DF274884F5003322E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1A7BF5E127488509003322E0 /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
+		1A7BF5E327488B56003322E0 /* SMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMenuViewController.swift; sourceTree = "<group>"; };
 		2183F5EEA0F0D53415C19391 /* Pods_GauchoDivinationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GauchoDivinationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33699617307F14B9DB968E65 /* Pods-GauchoDivinationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GauchoDivinationTests.release.xcconfig"; path = "Target Support Files/Pods-GauchoDivinationTests/Pods-GauchoDivinationTests.release.xcconfig"; sourceTree = "<group>"; };
 		3A91A46A63F1F6CC02B9110E /* Pods-GauchoDivination.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GauchoDivination.debug.xcconfig"; path = "Target Support Files/Pods-GauchoDivination/Pods-GauchoDivination.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,11 +122,13 @@
 			children = (
 				1A4C3CDD27482D1500F6D974 /* AppDelegate.swift */,
 				1A4C3CDF27482D1500F6D974 /* SceneDelegate.swift */,
-				1A4C3CE127482D1500F6D974 /* ViewController.swift */,
 				1A4C3CE327482D1500F6D974 /* Main.storyboard */,
 				1A4C3CE627482D1600F6D974 /* Assets.xcassets */,
 				1A4C3CE827482D1600F6D974 /* LaunchScreen.storyboard */,
 				1A4C3CEB27482D1600F6D974 /* Info.plist */,
+				1A7BF5DF274884F5003322E0 /* LoginViewController.swift */,
+				1A7BF5E127488509003322E0 /* RegViewController.swift */,
+				1A7BF5E327488B56003322E0 /* SMenuViewController.swift */,
 			);
 			path = GauchoDivination;
 			sourceTree = "<group>";
@@ -154,7 +160,6 @@
 				AE86BA3D4A6F16F3F3959186 /* Pods-GauchoDivinationTests.debug.xcconfig */,
 				33699617307F14B9DB968E65 /* Pods-GauchoDivinationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,9 +412,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4C3CE227482D1500F6D974 /* ViewController.swift in Sources */,
+				1A7BF5E427488B56003322E0 /* SMenuViewController.swift in Sources */,
+				1A7BF5E0274884F5003322E0 /* LoginViewController.swift in Sources */,
 				1A4C3CDE27482D1500F6D974 /* AppDelegate.swift in Sources */,
 				1A4C3CE027482D1500F6D974 /* SceneDelegate.swift in Sources */,
+				1A7BF5E227488509003322E0 /* RegViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
