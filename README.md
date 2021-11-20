@@ -29,9 +29,9 @@ An APP that can "anticipate" users' future in different aspects based on their p
 
 **Required Must-have Stories**
 
-* Users can register a new account
-* Users can login
-* Users can input UCSB seven-digit perm numbers for the divination
+* [x] Users can register a new account
+* [x] Users can login
+* [x] Users can input UCSB seven-digit perm numbers for the divination
 * Users can choose different types of divination: general, love, study&work, etc.
 * Users can get info about their fortune
 * Users can choose types of divination that require others perm NOs
@@ -202,6 +202,11 @@ An APP that can "anticipate" users' future in different aspects based on their p
 | -------- | -------- | -------- |
 | Update  |    | updating the setting  |
 
+
+### Progress
+
+**Login/Register Screen**
+![](https://imgur.com/PVCTyQm.gif)
 
 
 
