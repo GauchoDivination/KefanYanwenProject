@@ -8,6 +8,21 @@
 import UIKit
 
 class SMenuViewController: UIViewController {
+    
+    
+    @IBAction func sGeneralButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "sGeneralSegue", sender: nil)
+    }
+    
+    @IBAction func sLoveButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "sLoveSegue", sender: nil)
+    }
+    
+    
+    @IBAction func sStudyButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "sStudySegue", sender: nil)
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

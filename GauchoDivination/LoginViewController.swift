@@ -20,7 +20,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func signInbutton(_ sender: Any) {
-        let user = PFUser()
+        let user = PFUser.current
         let username = signusernameField.text!
         let password = signpasswordField.text!
         
