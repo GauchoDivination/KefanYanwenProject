@@ -33,7 +33,7 @@ An APP that can "anticipate" users' future in different aspects based on their p
 * [x] Users can login
 * [x] Users can input UCSB seven-digit perm numbers for the divination
 * [x] Users can choose different types of divination: general, love, study&work, etc.
-* Users can get info about their fortune
+* [x] Users can get info about their fortune
 * [x] Users can choose types of divination that require others perm NOs
 * [x] Users can input others perm numbers
 * Users can see the probability of the happening of certain events with others perm NOs
@@ -212,5 +212,6 @@ An APP that can "anticipate" users' future in different aspects based on their p
 
 ![](https://imgur.com/4M0mVB1.gif)
 
+**Single Details**
 
-
+![](https://imgur.com/u4YPmD6.gif)
