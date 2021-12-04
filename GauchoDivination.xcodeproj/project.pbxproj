@@ -19,6 +19,8 @@
 		1A7BF5E227488509003322E0 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BF5E127488509003322E0 /* RegViewController.swift */; };
 		1A7BF5E427488B56003322E0 /* SMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BF5E327488B56003322E0 /* SMenuViewController.swift */; };
 		1AA3228D275B625A0087BE48 /* SingleGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3228C275B625A0087BE48 /* SingleGeneralViewController.swift */; };
+		1AA3228F275BEEDB0087BE48 /* SingleLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3228E275BEEDB0087BE48 /* SingleLoveViewController.swift */; };
+		1AA32291275BF1AE0087BE48 /* SingleStudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA32290275BF1AE0087BE48 /* SingleStudyViewController.swift */; };
 		7DAC7FD965EE4DB88205561B /* Pods_GauchoDivinationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2183F5EEA0F0D53415C19391 /* Pods_GauchoDivinationTests.framework */; };
 		D772B99524DE70ECCC6D4490 /* Pods_GauchoDivination_GauchoDivinationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE2C200271E1496AF09996D /* Pods_GauchoDivination_GauchoDivinationUITests.framework */; };
 		FD8D115A5DD20A52287ADE35 /* Pods_GauchoDivination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE82474552F08F23CDA6430 /* Pods_GauchoDivination.framework */; };
@@ -58,6 +60,8 @@
 		1A7BF5E127488509003322E0 /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
 		1A7BF5E327488B56003322E0 /* SMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMenuViewController.swift; sourceTree = "<group>"; };
 		1AA3228C275B625A0087BE48 /* SingleGeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleGeneralViewController.swift; sourceTree = "<group>"; };
+		1AA3228E275BEEDB0087BE48 /* SingleLoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLoveViewController.swift; sourceTree = "<group>"; };
+		1AA32290275BF1AE0087BE48 /* SingleStudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleStudyViewController.swift; sourceTree = "<group>"; };
 		2183F5EEA0F0D53415C19391 /* Pods_GauchoDivinationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GauchoDivinationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33699617307F14B9DB968E65 /* Pods-GauchoDivinationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GauchoDivinationTests.release.xcconfig"; path = "Target Support Files/Pods-GauchoDivinationTests/Pods-GauchoDivinationTests.release.xcconfig"; sourceTree = "<group>"; };
 		3A91A46A63F1F6CC02B9110E /* Pods-GauchoDivination.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GauchoDivination.debug.xcconfig"; path = "Target Support Files/Pods-GauchoDivination/Pods-GauchoDivination.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 				1A7BF5E127488509003322E0 /* RegViewController.swift */,
 				1A7BF5E327488B56003322E0 /* SMenuViewController.swift */,
 				1AA3228C275B625A0087BE48 /* SingleGeneralViewController.swift */,
+				1AA3228E275BEEDB0087BE48 /* SingleLoveViewController.swift */,
+				1AA32290275BF1AE0087BE48 /* SingleStudyViewController.swift */,
 			);
 			path = GauchoDivination;
 			sourceTree = "<group>";
@@ -417,7 +423,9 @@
 			files = (
 				1A7BF5E427488B56003322E0 /* SMenuViewController.swift in Sources */,
 				1AA3228D275B625A0087BE48 /* SingleGeneralViewController.swift in Sources */,
+				1AA3228F275BEEDB0087BE48 /* SingleLoveViewController.swift in Sources */,
 				1A7BF5E0274884F5003322E0 /* LoginViewController.swift in Sources */,
+				1AA32291275BF1AE0087BE48 /* SingleStudyViewController.swift in Sources */,
 				1A4C3CDE27482D1500F6D974 /* AppDelegate.swift in Sources */,
 				1A4C3CE027482D1500F6D974 /* SceneDelegate.swift in Sources */,
 				1A7BF5E227488509003322E0 /* RegViewController.swift in Sources */,
